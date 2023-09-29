@@ -30,3 +30,5 @@ This project deals with python programming and also the use of streamlit to make
     - In the file, the "get_url" function is present so that upon calling this function, the function will call and provide GET API endpoint url and return its status code and either its content or error message as a string.
  
     - This file and this function will be used in the next next files because of the dependency of the "get_url" function.
+ 
+    - The function takes url as an input and returns the status code and the content from the API.
