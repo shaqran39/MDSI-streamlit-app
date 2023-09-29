@@ -32,3 +32,6 @@ This project deals with python programming and also the use of streamlit to make
     - This file and this function will be used in the next next files because of the dependency of the "get_url" function.
  
     - The function takes url as an input and returns the status code and the content from the API.
+
+- **File name: api.py**
+-   - 
