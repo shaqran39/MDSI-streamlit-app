@@ -13,7 +13,7 @@ This project deals with python programming and also the use of streamlit to make
 - Then we need to make sure streamlit has been installed in the computer. So that we are able to run the web application.
 
   - We install streamlit by the following command in the terminal: "pip install streamlit"
-- We make sure Requests has been installed in the computer. The requests library is a popular Python library used for making HTTP requests. It allows you to send HTTP requests to web services or websites and retrieve data from them. This is a fundamental capability when working with web-based APIs, scraping web content, or interacting with web services.
+- We make sure Requests has been installed in the computer. The requests library is a popular Python library used for making HTTP requests. It allows us to send HTTP requests to web services or websites and retrieve data from them. This is a fundamental capability when working with web-based APIs, scraping web content, or interacting with web services.
 
   - We install the request module by the following command in the terminal: "pip install requests"
 - Finally to run the web app we have to run the file containg the main() function. So we run the app.py file.
@@ -21,3 +21,7 @@ This project deals with python programming and also the use of streamlit to make
   - We run the file using the following command: "streamlit run app.py"
 
 ### File Details and Functionality
+
+- **File name: api.py**
+
+    - 
