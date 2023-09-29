@@ -20,3 +20,4 @@ This project deals with python programming and also the use of streamlit to make
 
   - We run the file using the following command: "streamlit run app.py"
 
+### File Details and Functionality
