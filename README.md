@@ -24,4 +24,5 @@ This project deals with python programming and also the use of streamlit to make
 
 - **File name: api.py**
 
-    - 
+    - This is the file that holds the GET function of the requests module for retrieving content from an API.
+    - In the file, the "get_url" function is present so that upon calling this function, the function will call and provide GET API endpoint url and return its status code and either its content or error message as a string.
