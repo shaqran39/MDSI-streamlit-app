@@ -67,6 +67,6 @@ This project deals with python programming and also the use of streamlit to make
  
   -  The "round_rate" function is a function that takes the rate as a parameter and returns its its rounded up value to upto 4 decimal places.
  
-  -  The "round_rate" function is a function that returns the inverse of a dictionary's rate.
+  -  The "reverse_rate" function is a function that returns the inverse of a dictionary's rate.
 
 
