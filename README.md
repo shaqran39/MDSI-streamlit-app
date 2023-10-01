@@ -38,4 +38,5 @@ This project deals with python programming and also the use of streamlit to make
 - **File name: frankfurter.py**
     
     - This is the file that holds all the functions needed to perform the retrieval of content and presenting the output with the use of the urls defined and the help of the "get_url" function which was previously created in the api.py file.
+    - Here we importy the two modules requests and json. Both important in getting the data and presenting the outcome.
 
