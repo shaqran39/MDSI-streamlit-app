@@ -72,4 +72,9 @@ This project deals with python programming and also the use of streamlit to make
   -  The "format_output" function i the function which would display the outcome. This is the function which would give all the details regarding the convertion. The returened string would show the date of the convertion rate, the convertion rate, the amount when the convertion gets done , the currencies from which the convertion was done, the currency to which the convertion gets done and also the inverse of the convertion rate.
 
 
+- **File name: app.py**
+
+    
+    - This is the file that holds the GET function of the requests module for retrieving content from an API.
+
 
