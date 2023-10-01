@@ -77,6 +77,6 @@ This project deals with python programming and also the use of streamlit to make
     
     - This is the file that holds everything needed to make the streamlit webapp. The file reference the above mentioned files and thier functions to create functionality within the streamlit app.
  
-    - 
+    - The file imports the "streamlit" and "datetime" module and uses the classes created on the two files "frakfurter.py" and "currency.py"
 
 
