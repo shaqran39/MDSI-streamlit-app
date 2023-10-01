@@ -85,8 +85,13 @@ This project deals with python programming and also the use of streamlit to make
   
         1. Displays the streamlit app title.
         2. Holds the code to show two dropdown boxes where all the currency codes are to be displayed. This value population with all the currency codes were done with the help of the "get_currencies_list" function created in the "frankfurter.py" file
-
-              - Also a numerical input field to use the value as the amount to be converted.
+        3. A numerical input field to use the value as the amount to be converted.
+        4. A button labeled as "Get Latest Rate" which upon clicking would use the above two selected currencies from the dropdown boxes and also the amount, to pass these 3 values to the "get_latest_rates" function referenced from the "frankfurter.py" file.
+        5. Upon successful call from the button, the webapp will display the last updated date, the fetched rate on the latest date , the inverse rate and also perform a calculation with the amount to display the converted amount.
+        6. If the button is unable to fetch anything, then an error message will be shown.
+        7. Then the file holds the code to make a streamlit input field of a datepicker and it would always hold today's date. But it can always be changed upon user desire.
+        8. A button labeled as "Get Historical Rate" which upon clicking would use the above two selected currencies from the dropdown boxes and also the date, to pass these 3 values to the "get_historical_rate" function referenced from the "frankfurter.py" file.
+        9. Upon successful call from the button, the webapp will display the selected, the fetched rate on that date, the inverse rate and also perform a calculation with the amount to display the converted amount.
     
 
 
