@@ -53,4 +53,12 @@ This project deals with python programming and also the use of streamlit to make
 
  
     - The "get_historical_rate" is the fucntion which takes in 3 parameters. The first parameter is the currency from which the amount is to be converted, the second one is the currency to which the amount is to be converted and the final parameter is the date. Upon successful calling of this function, the function will return a dictionary variable holding all the data as asked through the parameters.
+ 
+
+- **File name: currency.py**
+
+  - This is the file that holds all the functions needed to perform the retrieval of content and presenting the output as it deals directly with the retrieved dictionary from other functions of other files.
+ 
+  -  A class "Currency" is to be created which is going to hold all the initialized variables and the required functions for getting outcomes.
+
 
