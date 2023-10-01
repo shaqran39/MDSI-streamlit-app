@@ -34,4 +34,6 @@ This project deals with python programming and also the use of streamlit to make
     - The function takes url as an input and returns the status code and the content from the API.
 
 - **File name: api.py**
--   - 
+    - In this file we first import the "requests" module for accessing API callings to get the value from an API.
+    - We define a function called, "get_url" which when provided a GET API endpoint url then it will return its status code and either its content or error message as a string.
+
