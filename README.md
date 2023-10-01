@@ -38,5 +38,19 @@ This project deals with python programming and also the use of streamlit to make
 - **File name: frankfurter.py**
     
     - This is the file that holds all the functions needed to perform the retrieval of content and presenting the output with the use of the urls defined and the help of the "get_url" function which was previously created in the api.py file.
-    - Here we importy the two modules requests and json. Both important in getting the data and presenting the outcome.
+    
+    - Here we import the two modules "requests" and "json". Both important in getting the data and presenting the outcome.
+    
+    - And we define the base url which is the basic url in opening up the API link that holds all the data and which we will further modify to access data upon our need.
+ 
+    - A class "Frankfurter" is to be created which is going to hold all the initialized variables and the required functions for getting outcomes.
+ 
+    - The "__init__" function is going to hold all the required variables needed to be referenced to be used in the next functions.
+ 
+    - The "get_currencies_list" is the function which is to be used to fetch the list of currency codes.
+ 
+    - The "get_latest_rates" is the fucntion which takes in 3 parameters. The first parameter is the currency from which an amount is to be converted, the second one is the currency to which the amount is to be converted and the final parameter is the amount. Upon successful calling of this function, it will return the date and the rate. The date is usually the latest avaliable date in the dataset as the rates are always updating.
+
+ 
+    - The "get_historical_rate" is the fucntion which takes in 3 parameters. The first parameter is the currency from which the amount is to be converted, the second one is the currency to which the amount is to be converted and the final parameter is the date. Upon successful calling of this function, the function will return a dictionary variable holding all the data as asked through the parameters.
 
