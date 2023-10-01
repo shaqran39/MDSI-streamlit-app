@@ -60,5 +60,13 @@ This project deals with python programming and also the use of streamlit to make
   - This is the file that holds all the functions needed to perform the retrieval of content and presenting the output as it deals directly with the retrieved dictionary from other functions of other files.
  
   -  A class "Currency" is to be created which is going to hold all the initialized variables and the required functions for getting outcomes.
+ 
+  -  The "__init__" function is going to hold all the required variables needed to be referenced to be used in the next functions and also in the main file.
+ 
+  -  The "from_json" function is the function which need to be used to retrieve data from the dictionary file which gets retrieved with the help of other files and functions. This is the function which defines the variables with the required data.
+ 
+  -  The "round_rate" function is a function that takes the rate as a parameter and returns its its rounded up value to upto 4 decimal places.
+ 
+  -  The "round_rate" function is a function that returns the inverse of a dictionary's rate.
 
 
