@@ -82,9 +82,9 @@ This project deals with python programming and also the use of streamlit to make
     - Since this is the file which would be run to access the streamlit webapp, the "main" function is to be defined.
  
     - The main function performs the following:
-              - Displays the streamlit app title
-
-              - Holds the code to show two dropdown boxes where all the currency codes are to be displayed. This value population with all the currency codes were done with the help of the "get_currencies_list" function created in the "frankfurter.py" file
+  
+        1. Displays the streamlit app title.
+        2. Holds the code to show two dropdown boxes where all the currency codes are to be displayed. This value population with all the currency codes were done with the help of the "get_currencies_list" function created in the "frankfurter.py" file
 
               - Also a numerical input field to use the value as the amount to be converted.
     
