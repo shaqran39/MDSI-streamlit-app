@@ -78,5 +78,15 @@ This project deals with python programming and also the use of streamlit to make
     - This is the file that holds everything needed to make the streamlit webapp. The file reference the above mentioned files and thier functions to create functionality within the streamlit app.
  
     - The file imports the "streamlit" and "datetime" module and uses the classes created on the two files "frakfurter.py" and "currency.py"
+    
+    - Since this is the file which would be run to access the streamlit webapp, the "main" function is to be defined.
+ 
+    - The main function performs the following:
+              - Displays the streamlit app title
+
+              - Holds the code to show two dropdown boxes where all the currency codes are to be displayed. This value population with all the currency codes were done with the help of the "get_currencies_list" function created in the "frankfurter.py" file
+
+              - Also a numerical input field to use the value as the amount to be converted.
+    
 
 
