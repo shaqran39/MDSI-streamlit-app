@@ -67,6 +67,9 @@ This project deals with python programming and also the use of streamlit to make
  
   -  The "round_rate" function is a function that takes the rate as a parameter and returns its its rounded up value to upto 4 decimal places.
  
-  -  The "reverse_rate" function is a function that returns the inverse of a dictionary's rate.
+  -  The "reverse_rate" function is a function that returns the inverse of a dictionary's rate nd also rounding it upto 4 decimal places.
+ 
+  -  The "format_output" function i the function which would display the outcome. This is the function which would give all the details regarding the convertion. The returened string would show the date of the convertion rate, the convertion rate, the amount when the convertion gets done , the currencies from which the convertion was done, the currency to which the convertion gets done and also the inverse of the convertion rate.
+
 
 
