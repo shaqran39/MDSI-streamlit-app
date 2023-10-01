@@ -75,6 +75,8 @@ This project deals with python programming and also the use of streamlit to make
 - **File name: app.py**
 
     
-    - This is the file that holds the GET function of the requests module for retrieving content from an API.
+    - This is the file that holds everything needed to make the streamlit webapp. The file reference the above mentioned files and thier functions to create functionality within the streamlit app.
+ 
+    - 
 
 
